@@ -1,0 +1,48 @@
+{
+    "name": "orchid/suspicion",
+    "type": "library",
+    "description": "",
+    "keywords": [
+        "orchid",
+        "suspicion"
+    ],
+    "homepage": "https://github.com/orchidsoftware/suspicion",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandr Chernyaev",
+            "email": "bliz48rus@gmail.com",
+            "homepage": "http://tabuna.github.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "jenssegers/agent": "^2.6",
+        "s1lentium/iptools": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orchid\\Suspicion\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Orchid\\Suspicion\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
