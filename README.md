@@ -35,11 +35,6 @@ $ composer test
 
 If you discover any security related issues, please email bliz48rus@gmail.com instead of using the issue tracker.
 
-## Credits
-
-- [Alexandr Chernyaev][link-author]
-- [All Contributors][link-contributors]
-
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
